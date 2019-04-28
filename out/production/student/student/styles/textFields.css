@@ -1,0 +1,11 @@
+.text_fields{
+    -fx-border-color : blue;
+    -fx-border-radius : 5px;
+    -fx-background-radius:5px;
+    -fx-background-color :  #bdfffc;
+}
+
+
+.hover_text_fields:hover{
+    -fx-background-color:#ffffff !important;
+}

@@ -1,0 +1,10 @@
+.pane{
+    -fx-background-color: #a7e4ff;
+    -fx-alignment:center;
+}
+.log_pane{
+    -fx-background-color: #a7e4ff;
+    -fx-alignment:center;
+    -fx-border-radius:20px;
+    -fx-background-radius:20px;
+}

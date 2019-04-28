@@ -1,0 +1,12 @@
+.buttons{
+    -fx-alignment:top_center;
+    -fx-background-color: #42baf0;
+    -fx-border-radius:5px;
+    -fx-background-radius:5px;
+    -fx-border-color:blue;
+}
+
+
+.hover_buttons:hover{
+    -fx-background-color:#a7e4ff !important;
+}

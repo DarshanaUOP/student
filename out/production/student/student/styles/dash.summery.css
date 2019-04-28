@@ -1,0 +1,16 @@
+.dash_summery{
+    -fx-background-color: rgba(63, 159, 245, 0.89);
+    -fx-border-color:blue;
+    -fx-border-radius:10px;
+    -fx-background-radius:10px;
+}
+
+.hover_dash_summery:hover{
+    -fx-background-color: #a7e4ff !important;
+    -fx-text-fill: white;
+    -fx-border-color:blue;
+    -fx-border-width:0px 0px 0px 2px;
+    -fx-cursor:hand;
+    -fx-border-radius:5px;
+    -fx-background-radius:5px;
+}

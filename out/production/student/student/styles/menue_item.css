@@ -1,0 +1,12 @@
+.menue_dash{
+    -fx-background-color:gray;
+}
+.hover_menue:hover{
+    -fx-background-color:rgba(63, 159, 245, 0.89) !important;
+    -fx-text-fill: white;
+    -fx-border-color:blue;
+    -fx-border-width:0px 0px 0px 2px;
+    -fx-cursor:hand;
+    -fx-border-radius:5px;
+    -fx-background-radius:5px;
+}
