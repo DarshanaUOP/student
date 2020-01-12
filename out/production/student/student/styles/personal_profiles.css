@@ -1,0 +1,32 @@
+.first_name{
+    -fx-text-fill       :   blue;
+    -fx-font-size       :   25px;
+    -fx-cursor          :   hand;
+    -fx-font-weight     :   bold;
+}
+.last_name{
+    -fx-text-fill       :   blue;
+    -fx-font-size       :   20px;
+    -fx-cursor          :   none;
+    -fx-text-alignment  :   left;
+}
+.profile_photo{
+    -fx-cursor          :   none;
+}
+.other_details_text{
+    -fx-text-fill       :   blue;
+    -fx-font-size       :   14px;
+    -fx-cursor          :   none;
+    -fx-text-alignment  :   left;
+}
+.other_details_pane{
+    -fx-cursor          :   hand;
+}
+.details_pane{
+    -fx-border-color    :   blue;
+    -fx-border-radius   :   5px;
+}
+
+
+
+

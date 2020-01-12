@@ -8,20 +8,32 @@
     -fx-font-size: 18px;
     -fx-font-weight: bold;
 }
-.sub_text{
+.headlines_summery{
+     -fx-background-color:transparent;
+     -fx-text-fill:blue;
+     -fx-font-family: TRON;
+     -fx-font-size: 18px;
+
+ }
+.sub_text:hover{
     -fx-background-color:transparent;
-        -fx-text-fill:#2976e4;
+        -fx-text-fill:blue;
         -fx-font-family: TRON;
         -fx-font-size: 15px;
-        -fx-font-weight: regular;
         -fx-alignment:center;
 }
+.sub_text{
+     -fx-background-color:transparent;
+         -fx-text-fill:blue;
+         -fx-font-family: TRON;
+         -fx-font-size: 15px;
+         -fx-alignment:center;
+ }
 .main_head{
     -fx-background-color:transparent;
             -fx-text-fill:#2976e4;
             -fx-font-family: TRON;
             -fx-font-size: 35px;
-            -fx-font-weight: regular;
             -fx-alignment:center;
 }
 .error_text{
@@ -31,4 +43,12 @@
     -fx-font-size: 18px;
     -fx-font-weight: bold;
      -fx-alignment:center;
+}
+.big_number{
+    -fx-background-color:transparent;
+        -fx-text-fill:#ffffff;
+        -fx-font-family: TRON;
+        -fx-font-size: 35px;
+        -fx-font-weight: bold;
+
 }

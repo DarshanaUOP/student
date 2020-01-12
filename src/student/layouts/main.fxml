@@ -43,7 +43,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </VBox.margin>
                   </TextField>
-                  <Label prefHeight="36.0" prefWidth="656.0" styleClass="error_text" stylesheets="@../styles/text.css" text="Invalid user name or password">
+                  <Label fx:id="lableErrorMassages" prefHeight="36.0" prefWidth="656.0" styleClass="error_text" stylesheets="@../styles/text.css" text="Invalid user name or password">
                      <VBox.margin>
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </VBox.margin>
@@ -127,7 +127,7 @@
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </padding>
             </VBox>
-            <AnchorPane prefHeight="58.0">
+            <AnchorPane accessibleText="Log out" prefHeight="58.0">
                <children>
                   <ImageView fx:id="logout" fitHeight="56.0" fitWidth="49.0" layoutX="34.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
                      <image>
@@ -172,7 +172,7 @@
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </VBox.margin>
             </HBox>
-            <HBox prefHeight="48.0" prefWidth="191.0" styleClass="hover_menue" stylesheets="@../styles/menue_item.css">
+            <HBox onMouseClicked="#showStudents" prefHeight="48.0" prefWidth="191.0" styleClass="hover_menue" stylesheets="@../styles/menue_item.css">
                <children>
                   <ImageView fitHeight="48.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -193,7 +193,7 @@
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </VBox.margin>
             </HBox>
-            <HBox prefHeight="48.0" prefWidth="191.0" styleClass="hover_menue" stylesheets="@../styles/menue_item.css">
+            <HBox fx:id="paneTeachers" prefHeight="48.0" prefWidth="191.0" styleClass="hover_menue" stylesheets="@../styles/menue_item.css">
                <children>
                   <ImageView fitHeight="48.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                      <image>

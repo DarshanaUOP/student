@@ -7,9 +7,9 @@
 
 .hover_dash_summery:hover{
     -fx-background-color: #a7e4ff !important;
-    -fx-text-fill: white;
+    -fx-text-fill: blue;
     -fx-border-color:blue;
-    -fx-border-width:0px 0px 0px 2px;
+    -fx-border-width:0px 0px 0px 5px;
     -fx-cursor:hand;
     -fx-border-radius:5px;
     -fx-background-radius:5px;

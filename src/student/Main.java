@@ -12,11 +12,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Values values = new Values();
+        //Values values = new Values();
 
         Parent root = FXMLLoader.load(getClass().getResource("layouts/main.fxml"));
-        primaryStage.setTitle(values.appName);
-        primaryStage.setScene(new Scene(root, values.windowWidth, values.windowHeight));
+        primaryStage.setTitle(Values.appName);
+        primaryStage.setScene(new Scene(root, Values.windowWidth, Values.windowHeight));
         primaryStage.getIcons().add(new Image("student/images/student.png"));
         primaryStage.show();
     }

@@ -22,7 +22,7 @@
             </Pane>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label prefHeight="124.0" prefWidth="681.0" stylesheets="@../styles/text.css" text="this is an description of this servise">
+                  <Label prefHeight="124.0" prefWidth="681.0" stylesheets="@../styles/text.css" text="this is a description of this servise">
                      <opaqueInsets>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </opaqueInsets>
