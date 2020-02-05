@@ -6,7 +6,8 @@ Instructions :
 [Click here to Download jar file](https://github.com/DarshanaUOP/student/raw/master/out/artifacts/student_jar/student.jar)
 
 <i><b>Screenshots of the application<b></i>
- >Welcome and login 
+>Welcome and login 
   <img src = "out/artifacts/student_jar/std welcome.JPG" height = 400 > 
- >The dashboard
+ 
+>The dashboard
   <img src = "out/artifacts/student_jar/studentmonitor.JPG" height = 400 > 
