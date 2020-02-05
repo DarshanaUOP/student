@@ -11,7 +11,6 @@ Instructions for use:
 <img src = "out/artifacts/student_jar/std welcome.JPG" height = 400 > 
 <br>
 The figure above is showing the loging window of the application. The menu tabs are unable to use while user enter his valid password. and if user do not have an login password, he can create new user account to use the application. 
-<br>
 
 >The dashboard
 <img src = "out/artifacts/student_jar/studentmonitor.JPG" height = 400 > 
