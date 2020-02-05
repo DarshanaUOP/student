@@ -1,6 +1,6 @@
 # student
-JavaFX user interface created for *student management*
-Instructions :
+JavaFX user interface created for *student management*<br>
+Instructions for use:
  * press enter on password field to login (You can code login on your way)
  
 [Click here to Download jar file](https://github.com/DarshanaUOP/student/raw/master/out/artifacts/student_jar/student.jar)
