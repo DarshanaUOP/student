@@ -198,7 +198,7 @@
                               <Image url="@../images/menue.png" />
                            </image>
                         </ImageView>
-                        <Label prefHeight="31.0" prefWidth="1065.0" styleClass="h1" stylesheets="@../styles/menue_item.css" text="Menue">
+                        <Label prefHeight="31.0" prefWidth="1065.0" styleClass="h1" stylesheets="@../styles/menue_item.css" text="Menu">
                            <padding>
                               <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                            </padding>
